@@ -1,0 +1,43 @@
+## Ignore Visual Studio files
+.vs/
+*.user
+*.suo
+
+## Ignore build outputs
+bin/
+obj/
+
+## Ignore Rider IDE files
+.idea/
+
+## Ignore packages folder (if used)
+packages/
+
+## Ignore ReSharper files
+*.DotSettings.user
+
+## Ignore logs and temporary files
+*.log
+*.tmp
+*.bak
+
+## Ignore user secrets
+secrets.json
+
+## Ignore environment/local files
+.env
+
+## Ignore compiled DLLs and EXEs
+*.dll
+*.exe
+
+## Ignore NuGet stuff
+project.lock.json
+project.fragment.lock.json
+*.nupkg
+
+## Ignore Test Results
+TestResults/
+
+## Ignore publish output
+publish/
